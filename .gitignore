@@ -1,0 +1,5 @@
+/01_start/utils/__pycache__
+/.idea
+/01_start/logfile
+*.toml
+*.lock
