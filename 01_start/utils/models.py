@@ -9,7 +9,10 @@ class Context:
 
 @dataclass
 class ResponseFormat:
-    """最终回复给用户的结构化结果。完成天气查询后必须调用此工具输出答案。"""
+    """最终回复给用户的结构化结果。完成天气查询后必须调用此工具输出答案。
+    tools_json: {tool_name: get_xxx, tool_response:tool response json}
+    """
 
     punny_response: str
     weather_conditions: str | None = None
+    tools_json: dict | None = None

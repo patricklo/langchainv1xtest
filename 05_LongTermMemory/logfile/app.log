@@ -1,0 +1,22 @@
+2026-09-25 23:03:35,854 - utils.logger - ERROR - 初始化LLM失败: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-25 23:03:35,858 - utils.logger - WARNING - 使用默认配置重试: 初始化LLM失败: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-09-25 23:04:08,978 - utils.logger - ERROR - 初始化LLM失败: 'chat_mode'
+2026-09-25 23:04:08,979 - utils.logger - WARNING - 使用默认配置重试: 初始化LLM失败: 'chat_mode'
+2026-09-25 23:04:39,856 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-25 23:04:39,911 - utils.logger - INFO - 成功为用户ID:user_001, 存储记忆，记忆ID：2c22261d-5a09-4f6f-9cf9-08a2da9361af
+2026-09-25 23:04:39,912 - utils.logger - INFO - 成功为用户ID:user_002, 存储记忆，记忆ID：a4a4929a-6dbc-4210-8556-f6e1d904100c
+2026-09-25 23:04:39,914 - utils.logger - INFO - 成功获取用户ID: user_001 的长期记忆， 内容长度：11, 内容：patrikc_001
+2026-09-25 23:10:01,123 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-25 23:10:01,169 - utils.logger - INFO - 成功为用户ID:user_001, 存储记忆，记忆ID：24e9028b-4452-4b15-87e5-74dbeefdd392
+2026-09-25 23:10:01,170 - utils.logger - INFO - 成功为用户ID:user_002, 存储记忆，记忆ID：ea9171a8-d161-4723-9c27-242574a8f30e
+2026-09-25 23:10:01,173 - utils.logger - INFO - 成功获取用户ID: user_001 的长期记忆， 内容长度：23, 内容：patrikc_001 patrikc_001
+2026-09-25 23:10:56,436 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-25 23:10:56,499 - utils.logger - INFO - 成功为用户ID:user_001, 存储记忆，记忆ID：526c8960-6daa-4253-854f-dc699e6ce6cf
+2026-09-25 23:10:56,500 - utils.logger - INFO - 成功为用户ID:user_002, 存储记忆，记忆ID：020cf418-6935-4557-8ea1-539cef0d8309
+2026-09-26 21:22:33,462 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-26 21:22:33,525 - utils.logger - INFO - 成功为用户ID:user_001, 存储记忆，记忆ID：e06cf728-1bb2-4008-9322-ca4b6dde06b2
+2026-09-26 21:22:33,526 - utils.logger - INFO - 成功为用户ID:user_002, 存储记忆，记忆ID：35ce32d8-e674-40ad-b8df-e86e941add74
+2026-09-28 21:47:06,683 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-28 21:47:06,740 - utils.logger - INFO - 成功为用户ID:user_001, 存储记忆，记忆ID：94c4abb7-cf01-4c31-9ad8-9fa1f846ead6
+2026-09-28 21:47:06,741 - utils.logger - INFO - 成功为用户ID:user_002, 存储记忆，记忆ID：aad4bca1-a436-42d2-860d-7a6301db03b8
+2026-09-28 21:47:06,745 - utils.logger - INFO - 成功获取用户ID: user_001 的长期记忆， 内容长度：155, 内容：patrikc_001 PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName

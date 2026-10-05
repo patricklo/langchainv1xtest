@@ -1,0 +1,54 @@
+2026-09-30 22:29:07,720 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-30 22:33:49,656 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-30 22:35:38,315 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-30 22:36:26,434 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-30 22:44:30,996 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 10:33:44,338 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 10:48:11,115 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 10:50:16,169 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:54:31,597 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:54:31,646 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:54:31,714 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-01 19:55:18,567 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:55:18,617 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:55:18,685 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-01 19:55:51,634 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:55:51,684 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:55:51,748 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-01 19:55:51,797 - utils.logger - INFO - 成功为用户ID: user_001 存储记忆，记忆ID: 1e3257a8-5a32-4fcf-8706-4ff33a2a48a6
+2026-10-01 19:56:11,937 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:56:11,985 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-01 19:56:12,051 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-01 19:56:12,094 - utils.logger - INFO - 成功为用户ID: user_001 存储记忆，记忆ID: 2c012766-69cb-4088-b538-c634c5ed1c64
+2026-10-01 19:56:20,116 - utils.logger - INFO - ######检索到的文本块：Source: {'company': '', 'creationdate': '2024-08-25T11:44:53+03:44', 'subject': '', 'comments': '', 'author': 'NanGe', 'keywords': '', 'creator': 'WPS 文字', 'page': 0, 'title': '', 'moddate': '2024-08-25T11:44:53+03:44', 'start_index': 0, 'sourcemodified': "D:20240825114453+03'44'", 'total_pages': 6, 'trapped': '/False', 'source': './健康档案.pdf', 'producer': 'macOS 版本14.6.1（版号23G93） Quartz PDFContext', 'page_label': '1'}
+Content: 健康档案
+一、基本信息
+张三九，男，出生于1985 年5 月20 日，目前39 岁，已婚，职业为IT 工程师。张三九的
+血型为O 型，联系电话为138-1234-5678，电子邮箱为zhangsan@example.com，居住在
+上海市浦东新区张江路123 号。其紧急联系人为妻子李四六，联系电话为138-8765-4321。
+二、医疗历史
+张三九在2005 年被确诊为高血压，自此开始接受降压药物治疗。2010 年，他被确诊为二
+型糖尿病，并开始使用口服降糖药进行管理。2017 年，张三九被诊断为脂肪肝，医生建议
+通过饮食调整和增加运动来改善这一状况。2022 年，他因腰椎间盘突出接受了微创手术，
+术后恢复良好。此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。海鲜会导致轻
+度皮肤发痒，表明他对海鲜也有一定的过敏反应。张三九的家族病史显示，父亲患有高血压
+和二型糖尿病，母亲则有甲状腺疾病史。
+三、生活方式和习惯
+张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏
+高。他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。张三九无吸烟史，但每
+
+Source: {'source': './健康档案.pdf', 'sourcemodified': "D:20240825114453+03'44'", 'page': 0, 'creationdate': '2024-08-25T11:44:53+03:44', 'producer': 'macOS 版本14.6.1（版号23G93） Quartz PDFContext', 'company': '', 'comments': '', 'keywords': '', 'author': 'NanGe', 'subject': '', 'creator': 'WPS 文字', 'page_label': '1', 'trapped': '/False', 'title': '', 'start_index': 404, 'total_pages': 6, 'moddate': '2024-08-25T11:44:53+03:44'}
+Content: 三、生活方式和习惯
+张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏
+高。他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。张三九无吸烟史，但每
+周饮酒2 至3 次，每次约300 毫升啤酒。他的平均睡眠时间为每晚6 小时，常常感到疲惫。
+四、体检与化验结果
+张三九最近一次体检是在2024 年8 月15 日，体检结果显示他的身高为175 厘米，体重为
+78 公斤，体重指数（BMI）为25.5，表明体重超重。他的腰围为92 厘米，略高于健康范围。
+血压测量结果为135/85 毫米汞柱，属于轻度高血压范围。心率为每分钟78 次，处于正常
+范围。
+在实验室检查中，张三九的空腹血糖为6.8 毫摩尔/升，略高于正常范围；餐后2 小时血糖
+为8.9 毫摩尔/升，也高于正常标准。血脂检查结果显示，总胆固醇为5.2 毫摩尔/升，处于
+正常范围，甘油三酯为1.8 毫摩尔/升，略高于正常，低密度脂蛋白（LDL）为3.4 毫摩尔/
+升，略高。肝功能检查显示，谷丙转氨酶（ALT）和谷草转氨酶（AST）的水平正常，分别
+2026-10-01 19:56:25,410 - utils.logger - INFO - Agent最终回复是: Returning structured response: ResponseFormat(punny_response='哈哈哈，PatrickNickName PatrickNickName PatrickNickName PatrickNickName PatrickNickName，您要的张三九的健康档案来了！这位1985年出生的IT工程师，住在上海浦东新区，血型O型，生活方式嘛，偏爱高脂高糖，运动少，睡眠也不够，真是个典型的“程序猿”生活写照！不过，他的健康问题也不少：高血压、糖尿病、脂肪肝，还有对青霉素和海鲜的过敏反应。最近体检显示他有点超重，血糖和血脂也略高。看来，张三九需要好好调整生活方式啦！', weather_conditions=None)

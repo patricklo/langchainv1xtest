@@ -1,0 +1,208 @@
+2026-10-02 23:12:49,775 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:12:50,049 - utils.logger - INFO - 文档字数总计: 1073
+2026-10-02 23:12:50,049 - utils.logger - INFO - 文档前100个字符：健康档案
+一、基本信息
+张三九，男，出生于1985 年5 月20 日，目前39 岁，已婚，职业为IT 工程师。张三九的
+血型为O 型，联系电话为138-1234-5678，电子邮箱为zhangsan@
+2026-10-02 23:12:50,049 - utils.logger - INFO - 文档元数据信息：{'producer': 'macOS 版本14.6.1（版号23G93） Quartz PDFContext', 'creator': 'WPS 文字', 'creationdate': '2024-08-25T11:44:53+03:44', 'author': 'NanGe', 'comments': '', 'company': '', 'keywords': '', 'moddate': '2024-08-25T11:44:53+03:44', 'sourcemodified': "D:20240825114453+03'44'", 'subject': '', 'title': '', 'trapped': '/False', 'source': './健康档案.pdf', 'total_pages': 6, 'page': 0, 'page_label': '1'}
+2026-10-02 23:12:50,050 - utils.logger - INFO - 文档一共切分了 13 个文本块
+2026-10-02 23:12:57,322 - utils.logger - INFO - 前3个文档的ID：['1a35ad9f-b304-4ac3-bc05-551fc9a7c456', 'd9201162-f6f6-4f26-bf2c-7643c3e8dacf', '5b1bbc27-6564-4448-98bc-ad094cb90382']
+2026-10-02 23:13:07,627 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:07,659 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 23:13:15,063 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:15,160 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:40,561 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:40,584 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 23:13:40,585 - utils.logger - INFO - Application shutting down...
+2026-10-02 23:13:43,947 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:44,042 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:13:44,133 - utils.logger - INFO - Listing tools...
+2026-10-02 23:13:44,139 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x10c6e9800>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x10c939da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x10c939bc0>)] 
+2026-10-02 23:13:44,139 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:15:33,477 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:15:33,571 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:15:33,658 - utils.logger - INFO - Listing tools...
+2026-10-02 23:15:33,659 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x11a4f2700>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x11a4f1da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x11a4f1bc0>)] 
+2026-10-02 23:15:33,660 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:18:09,953 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:18:10,047 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:18:10,144 - utils.logger - INFO - Listing tools...
+2026-10-02 23:18:10,146 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x10bf41800>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x10c191da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x10c191bc0>)] 
+2026-10-02 23:18:10,146 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:18:10,190 - utils.logger - INFO - 系统Prompt:# 角色  
+你是一名AI助手。你可以使用以下三个工具来获取或检索信息：  
+
+- `get_weather_for_location`：用于获取指定地点的天气信息  
+- `get_user_location`：用于获取用户当前所在位置  
+- `retrieve_context`：当查询内容涉及**健康档案信息**时，用于在**向量数据库**中进行**相似度搜索**，以检索相关健康记录或背景信息。  
+
+***
+
+## 工作流程  
+
+### 天气查询  
+在回答天气问题前，必须先确认具体地点：
+- 如果用户明确提到某个城市或地区（如“北京的天气”），直接使用该地点  
+- 如果用户使用“这里”、“我这边”、“当前位置”等表述，先调用 `get_user_location` 获取用户位置  
+- 如果地点信息不明确，礼貌询问用户具体想查询哪个地方的天气 
+
+- 获取天气信息时，必须调用 `get_weather_for_location` 工具  
+- 严禁编造或猜测天气数据  
+- 如果工具调用失败，如实告知用户并建议重试或换个地点查询  
+
+### 健康档案查询  
+- 当用户的问题与“健康档案”或“健康记录”相关时，调用 `retrieve_context` 工具  
+- 根据相似度搜索结果回答用户问题  
+- 若检索结果为空，需说明并建议用户提供更多信息或尝试其他关键词  
+- 健康档案问题的回答为**自然语言输出**，无须结构化格式  
+
+***
+
+## 输出格式  
+
+**仅在查询天气时使用以下结构化 JSON 格式输出：**  
+- punny_response: 主要回复内容,
+- weather_conditions: 补充与天气相关的有趣信息
+
+**健康档案相关问题**：直接以自然语言回答，无需使用 JSON 结构化输出。
+2026-10-02 23:19:11,658 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:19:11,752 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:19:11,838 - utils.logger - INFO - Listing tools...
+2026-10-02 23:19:11,840 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x1350f2700>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x1350f1da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x1350f1bc0>)] 
+2026-10-02 23:19:11,840 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:19:11,897 - utils.logger - INFO - 系统Prompt:# 角色  
+你是一名AI助手。你可以使用以下三个工具来获取或检索信息：  
+
+- `get_weather_for_location`：用于获取指定地点的天气信息  
+- `get_user_location`：用于获取用户当前所在位置  
+- `retrieve_context`：当查询内容涉及**健康档案信息**时，用于在**向量数据库**中进行**相似度搜索**，以检索相关健康记录或背景信息。  
+
+***
+
+## 工作流程  
+
+### 天气查询  
+在回答天气问题前，必须先确认具体地点：
+- 如果用户明确提到某个城市或地区（如“北京的天气”），直接使用该地点  
+- 如果用户使用“这里”、“我这边”、“当前位置”等表述，先调用 `get_user_location` 获取用户位置  
+- 如果地点信息不明确，礼貌询问用户具体想查询哪个地方的天气 
+
+- 获取天气信息时，必须调用 `get_weather_for_location` 工具  
+- 严禁编造或猜测天气数据  
+- 如果工具调用失败，如实告知用户并建议重试或换个地点查询  
+
+### 健康档案查询  
+- 当用户的问题与“健康档案”或“健康记录”相关时，调用 `retrieve_context` 工具  
+- 根据相似度搜索结果回答用户问题  
+- 若检索结果为空，需说明并建议用户提供更多信息或尝试其他关键词  
+- 健康档案问题的回答为**自然语言输出**，无须结构化格式  
+
+***
+
+## 输出格式  
+
+**仅在查询天气时使用以下结构化 JSON 格式输出：**  
+- punny_response: 主要回复内容,
+- weather_conditions: 补充与天气相关的有趣信息
+
+**健康档案相关问题**：直接以自然语言回答，无需使用 JSON 结构化输出。
+2026-10-02 23:19:11,927 - utils.logger - INFO - 结构化输出的schema:None
+2026-10-02 23:19:11,928 - utils.logger - INFO - 用户Prompt:input_variables=['name', 'question'] input_types={} partial_variables={} template='请用搞笑的语气回答用户问题。用户的名字是：{name}。用户的问题是: {question}'
+2026-10-02 23:19:11,972 - utils.logger - INFO - 短期记忆Checkpointer初始化成功
+2026-10-02 23:19:11,979 - utils.logger - INFO - 长期记忆store初始化成功
+2026-10-02 23:20:53,586 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:20:53,681 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:20:53,769 - utils.logger - INFO - Listing tools...
+2026-10-02 23:20:53,771 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x12a5a1800>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x12a7f1da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x12a7f1bc0>)] 
+2026-10-02 23:20:53,771 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:20:53,845 - utils.logger - INFO - 系统Prompt:# 角色  
+你是一名AI助手。你可以使用以下三个工具来获取或检索信息：  
+
+- `get_weather_for_location`：用于获取指定地点的天气信息  
+- `get_user_location`：用于获取用户当前所在位置  
+- `retrieve_context`：当查询内容涉及**健康档案信息**时，用于在**向量数据库**中进行**相似度搜索**，以检索相关健康记录或背景信息。  
+
+***
+
+## 工作流程  
+
+### 天气查询  
+在回答天气问题前，必须先确认具体地点：
+- 如果用户明确提到某个城市或地区（如“北京的天气”），直接使用该地点  
+- 如果用户使用“这里”、“我这边”、“当前位置”等表述，先调用 `get_user_location` 获取用户位置  
+- 如果地点信息不明确，礼貌询问用户具体想查询哪个地方的天气 
+
+- 获取天气信息时，必须调用 `get_weather_for_location` 工具  
+- 严禁编造或猜测天气数据  
+- 如果工具调用失败，如实告知用户并建议重试或换个地点查询  
+
+### 健康档案查询  
+- 当用户的问题与“健康档案”或“健康记录”相关时，调用 `retrieve_context` 工具  
+- 根据相似度搜索结果回答用户问题  
+- 若检索结果为空，需说明并建议用户提供更多信息或尝试其他关键词  
+- 健康档案问题的回答为**自然语言输出**，无须结构化格式  
+
+***
+
+## 输出格式  
+
+**仅在查询天气时使用以下结构化 JSON 格式输出：**  
+- punny_response: 主要回复内容,
+- weather_conditions: 补充与天气相关的有趣信息
+
+**健康档案相关问题**：直接以自然语言回答，无需使用 JSON 结构化输出。
+2026-10-02 23:20:53,852 - utils.logger - INFO - 结构化输出的schema:{'type': 'json_schema', 'json_schema': {'name': 'weather_schema', 'schema': {'type': 'object', 'properties': {'punny_response': {'type': 'string'}, 'weather_conditions': {'type': 'string'}}, 'required': ['punny_response', 'weather_conditions'], 'additionalProperties': False}, 'strict': True}}
+2026-10-02 23:20:53,852 - utils.logger - INFO - 用户Prompt:input_variables=['name', 'question'] input_types={} partial_variables={} template='请用搞笑的语气回答用户问题。用户的名字是：{name}。用户的问题是: {question}'
+2026-10-02 23:20:53,881 - utils.logger - INFO - 短期记忆Checkpointer初始化成功
+2026-10-02 23:20:53,886 - utils.logger - INFO - 长期记忆store初始化成功
+2026-10-02 23:20:53,894 - utils.logger - INFO - 成功为用户ID: user_0001 存储记忆，记忆ID: 233e7f25-cb64-49e6-9511-40b4440734b3
+2026-10-02 23:20:53,894 - utils.logger - INFO - 用户的问题是: 请用搞笑的语气回答用户问题。用户的名字是：南哥。用户的问题是: 北京天气怎么样？
+2026-10-02 23:22:10,013 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:22:10,107 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 23:22:10,214 - utils.logger - INFO - Listing tools...
+2026-10-02 23:22:10,216 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x10fef2700>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x10fef1da0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x10fef1bc0>)] 
+2026-10-02 23:22:10,216 - utils.logger - INFO - 需要人工审批的工具有：{'get_weather_for_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_weather_for_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 23:22:10,275 - utils.logger - INFO - 系统Prompt:# 角色  
+你是一名AI助手。你可以使用以下三个工具来获取或检索信息：  
+
+- `get_weather_for_location`：用于获取指定地点的天气信息  
+- `get_user_location`：用于获取用户当前所在位置  
+- `retrieve_context`：当查询内容涉及**健康档案信息**时，用于在**向量数据库**中进行**相似度搜索**，以检索相关健康记录或背景信息。  
+
+***
+
+## 工作流程  
+
+### 天气查询  
+在回答天气问题前，必须先确认具体地点：
+- 如果用户明确提到某个城市或地区（如“北京的天气”），直接使用该地点  
+- 如果用户使用“这里”、“我这边”、“当前位置”等表述，先调用 `get_user_location` 获取用户位置  
+- 如果地点信息不明确，礼貌询问用户具体想查询哪个地方的天气 
+
+- 获取天气信息时，必须调用 `get_weather_for_location` 工具  
+- 严禁编造或猜测天气数据  
+- 如果工具调用失败，如实告知用户并建议重试或换个地点查询  
+
+### 健康档案查询  
+- 当用户的问题与“健康档案”或“健康记录”相关时，调用 `retrieve_context` 工具  
+- 根据相似度搜索结果回答用户问题  
+- 若检索结果为空，需说明并建议用户提供更多信息或尝试其他关键词  
+- 健康档案问题的回答为**自然语言输出**，无须结构化格式  
+
+***
+
+## 输出格式  
+
+**仅在查询天气时使用以下结构化 JSON 格式输出：**  
+- punny_response: 主要回复内容,
+- weather_conditions: 补充与天气相关的有趣信息
+
+**健康档案相关问题**：直接以自然语言回答，无需使用 JSON 结构化输出。
+2026-10-02 23:22:10,294 - utils.logger - INFO - 结构化输出的schema:{'type': 'object', 'title': 'weather_schema', 'properties': {'punny_response': {'type': 'string'}, 'weather_conditions': {'type': 'string'}}, 'required': ['punny_response', 'weather_conditions'], 'additionalProperties': False}
+2026-10-02 23:22:10,294 - utils.logger - INFO - 用户Prompt:input_variables=['name', 'question'] input_types={} partial_variables={} template='请用搞笑的语气回答用户问题。用户的名字是：{name}。用户的问题是: {question}'
+2026-10-02 23:22:10,318 - utils.logger - INFO - 短期记忆Checkpointer初始化成功
+2026-10-02 23:22:10,322 - utils.logger - INFO - 长期记忆store初始化成功
+2026-10-02 23:22:10,328 - utils.logger - INFO - 成功为用户ID: user_0001 存储记忆，记忆ID: b2aae7dc-91c5-45f5-8fb9-4c2311bda0ec
+2026-10-02 23:22:10,329 - utils.logger - INFO - 用户的问题是: 请用搞笑的语气回答用户问题。用户的名字是：南哥。用户的问题是: 北京天气怎么样？
+2026-10-02 23:22:21,252 - utils.logger - INFO - Agent最终回复是: Returning structured response: {'punny_response': '南哥，您问北京的天气？今天的北京就像一个阳光男孩，晴空万里，阳光灿烂！', 'weather_conditions': '记得戴上墨镜，别让阳光闪瞎了您的帅气眼神！'}
+2026-10-05 21:40:04,581 - utils.logger - INFO - Application shutting down...

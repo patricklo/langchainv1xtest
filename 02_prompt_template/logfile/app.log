@@ -1,0 +1,33 @@
+2026-09-15 22:11:27,065 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:11:27,069 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x114a2d9e0>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x1117e80e0>)]
+2026-09-15 22:11:27,073 - utils.logger - INFO - human_msg: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:13:40,157 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:13:40,162 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x10a5bd8a0>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x1085d00e0>)]
+2026-09-15 22:13:40,165 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:13:50,160 - utils.logger - INFO - Agent最终回复是: ResponseFormat(punny_response='嘿，Patrick，外面的天气就像一个害羞的笑话——晴得让人脸红！', weather_response='北京的天气是晴天！') 
+2026-09-15 22:14:14,982 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:14:14,999 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x108943b00>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x108943a60>)]
+2026-09-15 22:14:15,006 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:24:35,159 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:24:35,163 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x105b09620>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x103b1c0e0>)]
+2026-09-15 22:24:35,167 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:25:10,247 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:25:10,250 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x109d25620>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x107d380e0>)]
+2026-09-15 22:25:10,252 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:25:20,264 - utils.logger - INFO - Agent最终回复是: punny_response='嘿，Patrick，外面的天气就像一个害羞的笑话——晴得让人脸红！' weather_response='北京的天气是晴天！' 
+2026-09-15 22:38:24,493 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:38:24,497 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x10a079760>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x10808c0e0>)]
+2026-09-15 22:38:24,501 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:38:32,342 - utils.logger - INFO - Agent最终回复是: punny_response='嘿，Patrick，外面的天气就像一个害羞的笑话——晴得让人脸红！' weather_response='北京的天气是晴天！' 
+2026-09-15 22:39:41,720 - utils.logger - INFO - 成功初始化 openai LLM
+2026-09-15 22:39:41,722 - utils.logger - INFO - 获取可提供的工具列表：[StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, func=<function get_tools.<locals>.get_weather_for_location at 0x107bb9760>), StructuredTool(name='get_user_location', description='根据用户ID检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, func=<function get_tools.<locals>.get_user_location at 0x105bd00e0>)]
+2026-09-15 22:39:41,725 - utils.logger - INFO - human_msg 内容是: content='请用搞笑的语气,结合冷笑话,回答用户关于天气的问题。用户的名字是：patrick。用户原始问题是: 外面的天气怎么样？ ' additional_kwargs={} response_metadata={} 
+
+2026-09-15 22:39:49,314 - utils.logger - INFO - Agent最终回复是: punny_response='嘿，Patrick，外面的天气就像一个害羞的笑话——晴得让人脸红！' weather_response='北京的天气是晴天！' 
+2026-09-15 22:40:30,174 - utils.logger - INFO - Agent最终回复是: punny_response="Patrick，明天的天气可能会继续晴朗，就像太阳在说：'我明天还会来哦！'" weather_response='北京的天气是晴天！' 

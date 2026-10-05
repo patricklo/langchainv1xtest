@@ -13,8 +13,8 @@ MODEL_CONFIGS = {
     "openai":{
         #LLM服务的基础URL
         "base_url":"https://apis.itedus.cn/v1/",
-        "api_key":"API-KEY",
-        "chat_model":"gpt-4.1",
+        "api_key":"sk-F9pzJTFWPeaB3FV1F821DbD7E29041F482860215498a30Bf",
+        "chat_model":"gpt-4o",
         #向量嵌入模型名称
         "embedding_model": "text-embedding-3-small"
     }

@@ -1,0 +1,71 @@
+2026-10-02 21:32:31,931 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:32:32,021 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 21:32:43,493 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:33:26,229 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:34:49,560 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:34:49,587 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 21:35:08,522 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:35:39,713 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:35:39,758 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:40:49,709 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:41:17,547 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:44:05,612 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:44:33,314 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:44:33,361 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:45:23,148 - utils.logger - INFO - listing tools.....
+2026-10-02 21:45:23,203 - utils.logger - INFO - listing tools.....
+2026-10-02 21:50:36,844 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:50:36,891 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:51:34,775 - utils.logger - INFO - listing tools.....
+2026-10-02 21:51:34,830 - utils.logger - INFO - listing tools.....
+2026-10-02 21:52:39,266 - utils.logger - INFO - Application shutting down...
+2026-10-02 21:52:42,207 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:52:42,255 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:53:38,456 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:53:38,482 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 21:53:43,188 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:53:43,236 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:53:43,289 - utils.logger - INFO - listing tools.....
+2026-10-02 21:53:43,292 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x10c1a3e20>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x10c1a39c0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x1040fde40>)] 
+2026-10-02 21:53:43,292 - utils.logger - INFO - 需要人工审批的工具有：{'list_refund_reasons': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 21:53:43,340 - utils.logger - INFO - 成功为用户ID: user_002 存储记忆，记忆ID: 8af375c3-e17b-49b1-b5ff-af8018d223cb
+2026-10-02 21:53:43,346 - utils.logger - INFO - 成功获取用户ID: user_002 的长期记忆，内容长度: 62 字符，内容: 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002 字符
+2026-10-02 21:53:43,346 - utils.logger - INFO - 用户的问题是: 请用搞笑的语气回答用户问题。用户的名字是：南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002。用户的问题是: 我这边今天天气怎么样？
+2026-10-02 21:54:01,165 - utils.logger - INFO - Agent最终回复是: Returning structured response: ResponseFormat(punny_response='南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002，上海今天的天气是晴天！太阳公公今天心情不错，估计是昨晚吃了月亮饼吧！', weather_conditions='上海今天晴天，适合出门散步或者晒晒太阳，但别忘了带瓶水，保持水分哦！')
+2026-10-02 21:55:00,870 - utils.logger - INFO - Application shutting down...
+2026-10-02 21:55:04,789 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:04,837 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:18,559 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:18,608 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:35,003 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:35,030 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 21:55:39,921 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:39,966 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 21:55:40,009 - utils.logger - INFO - listing tools.....
+2026-10-02 21:55:40,011 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x1201afe20>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x1201af9c0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x106731e40>)] 
+2026-10-02 21:55:40,011 - utils.logger - INFO - 需要人工审批的工具有：{'list_refund_reasons': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 21:55:40,056 - utils.logger - INFO - 成功为用户ID: user_002 存储记忆，记忆ID: b9c0282d-f44d-4692-a9fb-5b4835a86f75
+2026-10-02 21:55:40,065 - utils.logger - INFO - 成功获取用户ID: user_002 的长期记忆，内容长度: 65 字符，内容: 南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002 字符
+2026-10-02 21:55:40,065 - utils.logger - INFO - 用户的问题是: 请用搞笑的语气回答用户问题。用户的名字是：南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002。用户的问题是: 张三九的基本信息？
+2026-10-02 21:56:01,872 - utils.logger - INFO - 检索到的文本块：
+2026-10-02 21:56:01,885 - utils.logger - INFO - listing tools.....
+2026-10-02 21:56:04,671 - utils.logger - INFO - Agent最终回复是: Returning structured response: ResponseFormat(punny_response='南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002，关于张三九的基本信息，我翻遍了数据库，结果发现他可能是个神秘人！要不您再提供点线索？', weather_conditions=None)
+2026-10-02 22:06:25,887 - utils.logger - INFO - Application shutting down...
+2026-10-02 22:07:49,301 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 22:07:49,330 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 22:07:51,897 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 22:07:51,943 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 22:07:51,986 - utils.logger - INFO - listing tools.....
+2026-10-02 22:07:51,989 - utils.logger - INFO - 获取并提供的工具列表: [StructuredTool(name='retrieve_context', description='根据查询内容在向量数据库中进行相似度搜索。', args_schema={'type': 'object', 'properties': {'query': {'type': 'string', 'description': '执行搜索的内容'}}, 'required': ['query']}, response_format='content_and_artifact', coroutine=<function convert_mcp_tool_to_langchain_tool.<locals>.call_tool at 0x1178afe20>), StructuredTool(name='get_weather_for_location', description='为指定的城市获取天气。', args_schema=<class 'langchain_core.utils.pydantic.get_weather_for_location'>, coroutine=<function get_tools.<locals>.get_weather_for_location at 0x1178af9c0>), StructuredTool(name='get_user_location', description='根据用户 ID 检索用户信息。', args_schema=<class 'langchain_core.utils.pydantic.get_user_location'>, coroutine=<function get_tools.<locals>.get_user_location at 0x1067d5e40>)] 
+2026-10-02 22:07:51,989 - utils.logger - INFO - 需要人工审批的工具有：{'list_refund_reasons': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 list_refund_reasons 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'get_user_location': {'allowed_decisions': ['approve', 'edit', 'reject'], 'description': '调用 get_user_location 工具需要人工审批。请输入 approve(同意)、reject(拒绝) 或 edit(编辑参数)'}, 'retrieve_context': False}
+2026-10-02 22:07:52,032 - utils.logger - INFO - 成功为用户ID: user_002 存储记忆，记忆ID: 6dd68005-3494-4973-b39c-20b6bdef8406
+2026-10-02 22:07:52,039 - utils.logger - INFO - 成功获取用户ID: user_002 的长期记忆，内容长度: 68 字符，内容: 南哥 南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002 字符
+2026-10-02 22:07:52,040 - utils.logger - INFO - 用户的问题是: 请用搞笑的语气回答用户问题。用户的名字是：南哥 南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002。用户的问题是: 张三九的基本信息？
+2026-10-02 22:07:57,350 - utils.logger - INFO - 检索到的文本块：
+2026-10-02 22:07:57,364 - utils.logger - INFO - listing tools.....
+2026-10-02 22:07:59,261 - utils.logger - INFO - Agent最终回复是: Returning structured response: ResponseFormat(punny_response='南哥 南哥 南哥 patrikc_002 patrikc_002 patrikc_002 patrikc_002 patrikc_002，关于张三九的基本信息，我查了个遍，结果发现他可能是个传说中的隐士！要不您再给点提示？', weather_conditions=None)
+2026-10-02 22:27:07,044 - utils.logger - INFO - 成功初始化 openai LLM
+2026-10-02 22:27:07,067 - utils.logger - INFO - Application started with StreamableHTTP session manager!
+2026-10-02 22:27:09,153 - utils.logger - INFO - listing tools.....
+2026-10-02 22:27:11,706 - utils.logger - INFO - 检索到的文本块：
+2026-10-02 22:27:25,039 - utils.logger - INFO - Application shutting down...

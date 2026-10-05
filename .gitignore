@@ -3,3 +3,4 @@
 /01_start/logfile
 *.toml
 *.lock
+/10_rag_with_milvus/docker_files/milvus/volumes/
